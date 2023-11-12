@@ -1,5 +1,5 @@
 # DISYSAsgn4
-Group: MMA (Mads Nørklit, Alex Bjørn, Mohammad Ammar)
+Group: MMA (Mads Nørklit, Alex Bjørnskov, Mohammad Ammar)
 
 ## How to run
 
