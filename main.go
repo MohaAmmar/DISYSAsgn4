@@ -112,9 +112,6 @@ func main() {
 			log.Printf("%s (id: %d) exiting critical section.\n", p.name, p.id)
 			p.inCS = false
 			p.requesting = false
-			if p.lamportTimestamp == 50 {
-				os.Exit(3)
-			}
 		}
 	}
 
@@ -122,8 +119,8 @@ func main() {
 
 func (p *peer) RA(ctx context.Context, r *RA.Request) (*RA.Reply, error) {
 	p.lamportTimestamp++
-	fmt.Printf("%s (id: %d) received a request from %s (id: %d) at lamport time %d}\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
-	log.Printf("%s (id: %d) received a request from %s (id: %d) at lamport time %d}\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
+	fmt.Printf("%s (id: %d) received a request from %s (id: %d) at lamport time %d\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
+	log.Printf("%s (id: %d) received a request from %s (id: %d) at lamport time %d\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
 
 	// This is a while loop that ensures that the loop continues to run
 	// until the boolean returned from ReplyCritical is true
@@ -131,16 +128,16 @@ func (p *peer) RA(ctx context.Context, r *RA.Request) (*RA.Reply, error) {
 
 	}
 
-	fmt.Printf("%s (id: %d) replies to %s (id: %d)'s request at lamport time %d}\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
-	log.Printf("%s (id: %d) replies to %s (id: %d)'s request at lamport time %d}\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
+	fmt.Printf("%s (id: %d) replies to %s (id: %d)'s request at lamport time %d\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
+	log.Printf("%s (id: %d) replies to %s (id: %d)'s request at lamport time %d\n", p.name, p.id, r.Name, r.Id, r.LamportTimestamp)
 	reply := &RA.Reply{Msg: "free"}
 	return reply, nil
 }
 
 func (p *peer) RequestCritical() {
-	r := &RA.Request{Id: p.id, LamportTimestamp: p.lamportTimestamp}
-	fmt.Printf("%s (id: %d) is sending a request at lamport time: %d) \n", p.name, p.id, p.lamportTimestamp)
-	log.Printf("%s (id: %d) is sending a request at lamport time: %d) \n", p.name, p.id, p.lamportTimestamp)
+	r := &RA.Request{Id: p.id, Name: p.name, LamportTimestamp: p.lamportTimestamp}
+	fmt.Printf("%s (id: %d) is sending a request at lamport time: %d\n", p.name, p.id, p.lamportTimestamp)
+	log.Printf("%s (id: %d) is sending a request at lamport time: %d\n", p.name, p.id, p.lamportTimestamp)
 	p.requesting = true
 	p.myReq = r
 
