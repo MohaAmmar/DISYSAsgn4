@@ -1,0 +1,447 @@
+2023/11/12 15:45:15 Charlie (id: 2) is sending a request at lamport time: 0) 
+2023/11/12 15:45:15 Bob (id: 1) received a request from  (id: 2) at lamport time 0}
+2023/11/12 15:45:15 Bob (id: 1) replies to  (id: 2)'s request at lamport time 0}
+2023/11/12 15:45:15 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:15 Alice (id: 0) received a request from  (id: 2) at lamport time 0}
+2023/11/12 15:45:15 Alice (id: 0) replies to  (id: 2)'s request at lamport time 0}
+2023/11/12 15:45:15 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:15 Charlie (id: 2) enters critical section at lamport time 1
+2023/11/12 15:45:15 Alice (id: 0) is sending a request at lamport time: 1) 
+2023/11/12 15:45:15 Bob (id: 1) received a request from  (id: 0) at lamport time 1}
+2023/11/12 15:45:15 Bob (id: 1) replies to  (id: 0)'s request at lamport time 1}
+2023/11/12 15:45:15 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:15 Charlie (id: 2) received a request from  (id: 0) at lamport time 1}
+2023/11/12 15:45:16 Bob (id: 1) is sending a request at lamport time: 2) 
+2023/11/12 15:45:16 Alice (id: 0) received a request from  (id: 1) at lamport time 2}
+2023/11/12 15:45:18 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:18 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 1}
+2023/11/12 15:45:18 Charlie (id: 2) is sending a request at lamport time: 2) 
+2023/11/12 15:45:18 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:18 Alice (id: 0) enters critical section at lamport time 4
+2023/11/12 15:45:18 Alice (id: 0) received a request from  (id: 2) at lamport time 2}
+2023/11/12 15:45:21 Alice (id: 0) exiting critical section.
+2023/11/12 15:45:21 Alice (id: 0) replies to  (id: 1)'s request at lamport time 2}
+2023/11/12 15:45:21 Alice (id: 0) is sending a request at lamport time: 4) 
+2023/11/12 15:45:21 Alice (id: 0) replies to  (id: 2)'s request at lamport time 2}
+2023/11/12 15:45:21 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:21 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:21 Charlie (id: 2) received a request from  (id: 1) at lamport time 2}
+2023/11/12 15:45:21 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 2}
+2023/11/12 15:45:21 Bob (id: 1) received a request from  (id: 0) at lamport time 4}
+2023/11/12 15:45:21 Bob (id: 1) received a request from  (id: 2) at lamport time 2}
+2023/11/12 15:45:21 Bob (id: 1) replies to  (id: 2)'s request at lamport time 2}
+2023/11/12 15:45:21 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:21 Bob (id: 1) enters critical section at lamport time 5
+2023/11/12 15:45:21 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:21 Charlie (id: 2) enters critical section at lamport time 4
+2023/11/12 15:45:24 Bob (id: 1) exiting critical section.
+2023/11/12 15:45:24 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:24 Bob (id: 1) replies to  (id: 0)'s request at lamport time 4}
+2023/11/12 15:45:24 Bob (id: 1) is sending a request at lamport time: 5) 
+2023/11/12 15:45:24 Charlie (id: 2) is sending a request at lamport time: 4) 
+2023/11/12 15:45:24 Alice (id: 0) received a request from  (id: 2) at lamport time 4}
+2023/11/12 15:45:24 Alice (id: 0) replies to  (id: 2)'s request at lamport time 4}
+2023/11/12 15:45:24 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:24 Alice (id: 0) received a request from  (id: 1) at lamport time 5}
+2023/11/12 15:45:24 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:24 Charlie (id: 2) received a request from  (id: 0) at lamport time 4}
+2023/11/12 15:45:24 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 4}
+2023/11/12 15:45:24 Bob (id: 1) received a request from  (id: 2) at lamport time 4}
+2023/11/12 15:45:24 Bob (id: 1) replies to  (id: 2)'s request at lamport time 4}
+2023/11/12 15:45:24 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:24 Alice (id: 0) enters critical section at lamport time 7
+2023/11/12 15:45:24 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:24 Charlie (id: 2) enters critical section at lamport time 6
+2023/11/12 15:45:27 Alice (id: 0) exiting critical section.
+2023/11/12 15:45:27 Alice (id: 0) is sending a request at lamport time: 7) 
+2023/11/12 15:45:27 Alice (id: 0) replies to  (id: 1)'s request at lamport time 5}
+2023/11/12 15:45:27 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:27 Charlie (id: 2) is sending a request at lamport time: 6) 
+2023/11/12 15:45:27 Charlie (id: 2) received a request from  (id: 0) at lamport time 7}
+2023/11/12 15:45:27 Alice (id: 0) received a request from  (id: 2) at lamport time 6}
+2023/11/12 15:45:27 Alice (id: 0) replies to  (id: 2)'s request at lamport time 6}
+2023/11/12 15:45:27 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:27 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:27 Charlie (id: 2) received a request from  (id: 1) at lamport time 5}
+2023/11/12 15:45:27 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 5}
+2023/11/12 15:45:27 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:27 Bob (id: 1) enters critical section at lamport time 7
+2023/11/12 15:45:27 Bob (id: 1) received a request from  (id: 2) at lamport time 6}
+2023/11/12 15:45:30 Bob (id: 1) exiting critical section.
+2023/11/12 15:45:30 Bob (id: 1) is sending a request at lamport time: 8) 
+2023/11/12 15:45:30 Bob (id: 1) replies to  (id: 2)'s request at lamport time 6}
+2023/11/12 15:45:30 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:30 Charlie (id: 2) enters critical section at lamport time 9
+2023/11/12 15:45:30 Alice (id: 0) received a request from  (id: 1) at lamport time 8}
+2023/11/12 15:45:33 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:33 Charlie (id: 2) is sending a request at lamport time: 9) 
+2023/11/12 15:45:33 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 7}
+2023/11/12 15:45:33 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:33 Bob (id: 1) received a request from  (id: 2) at lamport time 9}
+2023/11/12 15:45:33 Bob (id: 1) received a request from  (id: 0) at lamport time 7}
+2023/11/12 15:45:33 Bob (id: 1) replies to  (id: 0)'s request at lamport time 7}
+2023/11/12 15:45:33 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:33 Alice (id: 0) enters critical section at lamport time 10
+2023/11/12 15:45:36 Alice (id: 0) exiting critical section.
+2023/11/12 15:45:36 Alice (id: 0) is sending a request at lamport time: 10) 
+2023/11/12 15:45:36 Alice (id: 0) replies to  (id: 1)'s request at lamport time 8}
+2023/11/12 15:45:36 Bob (id: 1) received a request from  (id: 0) at lamport time 10}
+2023/11/12 15:45:36 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:36 Charlie (id: 2) received a request from  (id: 1) at lamport time 8}
+2023/11/12 15:45:36 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 8}
+2023/11/12 15:45:36 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:36 Bob (id: 1) enters critical section at lamport time 12
+2023/11/12 15:45:39 Bob (id: 1) exiting critical section.
+2023/11/12 15:45:39 Bob (id: 1) replies to  (id: 2)'s request at lamport time 9}
+2023/11/12 15:45:39 Bob (id: 1) is sending a request at lamport time: 12) 
+2023/11/12 15:45:39 Bob (id: 1) replies to  (id: 0)'s request at lamport time 10}
+2023/11/12 15:45:39 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:39 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:39 Alice (id: 0) received a request from  (id: 1) at lamport time 12}
+2023/11/12 15:45:39 Charlie (id: 2) received a request from  (id: 0) at lamport time 10}
+2023/11/12 15:45:39 Alice (id: 0) received a request from  (id: 2) at lamport time 9}
+2023/11/12 15:45:39 Alice (id: 0) replies to  (id: 2)'s request at lamport time 9}
+2023/11/12 15:45:39 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:39 Charlie (id: 2) enters critical section at lamport time 12
+2023/11/12 15:45:42 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:42 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 10}
+2023/11/12 15:45:42 Charlie (id: 2) is sending a request at lamport time: 12) 
+2023/11/12 15:45:42 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:42 Alice (id: 0) enters critical section at lamport time 14
+2023/11/12 15:45:42 Alice (id: 0) received a request from  (id: 2) at lamport time 12}
+2023/11/12 15:45:45 Alice (id: 0) exiting critical section.
+2023/11/12 15:45:45 Alice (id: 0) is sending a request at lamport time: 14) 
+2023/11/12 15:45:45 Alice (id: 0) replies to  (id: 1)'s request at lamport time 12}
+2023/11/12 15:45:45 Alice (id: 0) replies to  (id: 2)'s request at lamport time 12}
+2023/11/12 15:45:45 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:45 Bob (id: 1) received a request from  (id: 0) at lamport time 14}
+2023/11/12 15:45:45 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:45 Charlie (id: 2) received a request from  (id: 1) at lamport time 12}
+2023/11/12 15:45:45 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 12}
+2023/11/12 15:45:45 Bob (id: 1) received a request from  (id: 2) at lamport time 12}
+2023/11/12 15:45:45 Bob (id: 1) replies to  (id: 2)'s request at lamport time 12}
+2023/11/12 15:45:45 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:45 Bob (id: 1) enters critical section at lamport time 15
+2023/11/12 15:45:45 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:45 Charlie (id: 2) enters critical section at lamport time 14
+2023/11/12 15:45:48 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:48 Bob (id: 1) exiting critical section.
+2023/11/12 15:45:48 Bob (id: 1) is sending a request at lamport time: 15) 
+2023/11/12 15:45:48 Charlie (id: 2) is sending a request at lamport time: 14) 
+2023/11/12 15:45:48 Bob (id: 1) replies to  (id: 0)'s request at lamport time 14}
+2023/11/12 15:45:48 Alice (id: 0) received a request from  (id: 2) at lamport time 14}
+2023/11/12 15:45:48 Alice (id: 0) replies to  (id: 2)'s request at lamport time 14}
+2023/11/12 15:45:48 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:48 Alice (id: 0) received a request from  (id: 1) at lamport time 15}
+2023/11/12 15:45:48 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:48 Charlie (id: 2) received a request from  (id: 0) at lamport time 14}
+2023/11/12 15:45:48 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 14}
+2023/11/12 15:45:48 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:48 Bob (id: 1) received a request from  (id: 2) at lamport time 14}
+2023/11/12 15:45:48 Alice (id: 0) enters critical section at lamport time 17
+2023/11/12 15:45:48 Bob (id: 1) replies to  (id: 2)'s request at lamport time 14}
+2023/11/12 15:45:48 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:48 Charlie (id: 2) enters critical section at lamport time 16
+2023/11/12 15:45:51 Alice (id: 0) exiting critical section.
+2023/11/12 15:45:51 Alice (id: 0) is sending a request at lamport time: 17) 
+2023/11/12 15:45:51 Alice (id: 0) replies to  (id: 1)'s request at lamport time 15}
+2023/11/12 15:45:51 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:51 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:51 Charlie (id: 2) is sending a request at lamport time: 17) 
+2023/11/12 15:45:51 Charlie (id: 2) received a request from  (id: 0) at lamport time 17}
+2023/11/12 15:45:51 Charlie (id: 2) received a request from  (id: 1) at lamport time 15}
+2023/11/12 15:45:51 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 15}
+2023/11/12 15:45:51 Bob (id: 1) received a request from  (id: 2) at lamport time 16}
+2023/11/12 15:45:51 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:51 Bob (id: 1) enters critical section at lamport time 18
+2023/11/12 15:45:54 Bob (id: 1) exiting critical section.
+2023/11/12 15:45:54 Bob (id: 1) is sending a request at lamport time: 18) 
+2023/11/12 15:45:54 Bob (id: 1) replies to  (id: 2)'s request at lamport time 16}
+2023/11/12 15:45:54 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:54 Charlie (id: 2) received a request from  (id: 1) at lamport time 18}
+2023/11/12 15:45:54 Alice (id: 0) received a request from  (id: 2) at lamport time 16}
+2023/11/12 15:45:54 Alice (id: 0) replies to  (id: 2)'s request at lamport time 16}
+2023/11/12 15:45:54 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:45:54 Charlie (id: 2) enters critical section at lamport time 20
+2023/11/12 15:45:57 Charlie (id: 2) exiting critical section.
+2023/11/12 15:45:57 Charlie (id: 2) is sending a request at lamport time: 20) 
+2023/11/12 15:45:57 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 18}
+2023/11/12 15:45:57 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 17}
+2023/11/12 15:45:57 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:57 Alice (id: 0) received a request from  (id: 2) at lamport time 20}
+2023/11/12 15:45:57 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:45:57 Bob (id: 1) received a request from  (id: 0) at lamport time 17}
+2023/11/12 15:45:57 Bob (id: 1) replies to  (id: 0)'s request at lamport time 17}
+2023/11/12 15:45:57 Alice (id: 0) received a request from  (id: 1) at lamport time 18}
+2023/11/12 15:45:57 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:45:57 Alice (id: 0) enters critical section at lamport time 21
+2023/11/12 15:46:00 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:00 Alice (id: 0) is sending a request at lamport time: 21) 
+2023/11/12 15:46:00 Alice (id: 0) replies to  (id: 1)'s request at lamport time 18}
+2023/11/12 15:46:00 Alice (id: 0) replies to  (id: 2)'s request at lamport time 20}
+2023/11/12 15:46:00 Bob (id: 1) received a request from  (id: 0) at lamport time 21}
+2023/11/12 15:46:00 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:00 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:00 Bob (id: 1) enters critical section at lamport time 21
+2023/11/12 15:46:00 Bob (id: 1) received a request from  (id: 2) at lamport time 20}
+2023/11/12 15:46:03 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:03 Bob (id: 1) replies to  (id: 2)'s request at lamport time 20}
+2023/11/12 15:46:03 Bob (id: 1) is sending a request at lamport time: 22) 
+2023/11/12 15:46:03 Bob (id: 1) replies to  (id: 0)'s request at lamport time 21}
+2023/11/12 15:46:03 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:03 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:03 Charlie (id: 2) enters critical section at lamport time 21
+2023/11/12 15:46:03 Alice (id: 0) received a request from  (id: 1) at lamport time 22}
+2023/11/12 15:46:03 Charlie (id: 2) received a request from  (id: 0) at lamport time 21}
+2023/11/12 15:46:06 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:06 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 21}
+2023/11/12 15:46:06 Charlie (id: 2) is sending a request at lamport time: 22) 
+2023/11/12 15:46:06 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:06 Alice (id: 0) enters critical section at lamport time 24
+2023/11/12 15:46:06 Alice (id: 0) received a request from  (id: 2) at lamport time 22}
+2023/11/12 15:46:09 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:09 Alice (id: 0) is sending a request at lamport time: 24) 
+2023/11/12 15:46:09 Alice (id: 0) replies to  (id: 1)'s request at lamport time 22}
+2023/11/12 15:46:09 Alice (id: 0) replies to  (id: 2)'s request at lamport time 22}
+2023/11/12 15:46:09 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:09 Charlie (id: 2) received a request from  (id: 0) at lamport time 24}
+2023/11/12 15:46:09 Bob (id: 1) received a request from  (id: 2) at lamport time 22}
+2023/11/12 15:46:09 Bob (id: 1) replies to  (id: 2)'s request at lamport time 22}
+2023/11/12 15:46:09 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:09 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:09 Charlie (id: 2) enters critical section at lamport time 24
+2023/11/12 15:46:09 Charlie (id: 2) received a request from  (id: 1) at lamport time 22}
+2023/11/12 15:46:12 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:12 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 22}
+2023/11/12 15:46:12 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 24}
+2023/11/12 15:46:12 Charlie (id: 2) is sending a request at lamport time: 25) 
+2023/11/12 15:46:12 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:12 Bob (id: 1) enters critical section at lamport time 24
+2023/11/12 15:46:12 Alice (id: 0) received a request from  (id: 2) at lamport time 25}
+2023/11/12 15:46:12 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:12 Bob (id: 1) received a request from  (id: 0) at lamport time 24}
+2023/11/12 15:46:15 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:15 Bob (id: 1) is sending a request at lamport time: 25) 
+2023/11/12 15:46:15 Bob (id: 1) replies to  (id: 0)'s request at lamport time 24}
+2023/11/12 15:46:15 Alice (id: 0) received a request from  (id: 1) at lamport time 25}
+2023/11/12 15:46:15 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:15 Alice (id: 0) enters critical section at lamport time 27
+2023/11/12 15:46:18 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:18 Alice (id: 0) is sending a request at lamport time: 27) 
+2023/11/12 15:46:18 Alice (id: 0) replies to  (id: 2)'s request at lamport time 25}
+2023/11/12 15:46:18 Alice (id: 0) replies to  (id: 1)'s request at lamport time 25}
+2023/11/12 15:46:18 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:18 Bob (id: 1) received a request from  (id: 0) at lamport time 27}
+2023/11/12 15:46:18 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:18 Charlie (id: 2) received a request from  (id: 1) at lamport time 25}
+2023/11/12 15:46:18 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 25}
+2023/11/12 15:46:18 Bob (id: 1) received a request from  (id: 2) at lamport time 25}
+2023/11/12 15:46:18 Bob (id: 1) replies to  (id: 2)'s request at lamport time 25}
+2023/11/12 15:46:18 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:18 Bob (id: 1) enters critical section at lamport time 28
+2023/11/12 15:46:18 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:18 Charlie (id: 2) enters critical section at lamport time 27
+2023/11/12 15:46:21 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:21 Bob (id: 1) replies to  (id: 0)'s request at lamport time 27}
+2023/11/12 15:46:21 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:21 Charlie (id: 2) is sending a request at lamport time: 27) 
+2023/11/12 15:46:21 Bob (id: 1) is sending a request at lamport time: 28) 
+2023/11/12 15:46:21 Bob (id: 1) received a request from  (id: 2) at lamport time 27}
+2023/11/12 15:46:21 Bob (id: 1) replies to  (id: 2)'s request at lamport time 27}
+2023/11/12 15:46:21 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:21 Alice (id: 0) received a request from  (id: 1) at lamport time 28}
+2023/11/12 15:46:21 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:21 Charlie (id: 2) received a request from  (id: 0) at lamport time 27}
+2023/11/12 15:46:21 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 27}
+2023/11/12 15:46:21 Alice (id: 0) received a request from  (id: 2) at lamport time 27}
+2023/11/12 15:46:21 Alice (id: 0) replies to  (id: 2)'s request at lamport time 27}
+2023/11/12 15:46:21 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:21 Alice (id: 0) enters critical section at lamport time 30
+2023/11/12 15:46:21 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:21 Charlie (id: 2) enters critical section at lamport time 29
+2023/11/12 15:46:24 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:24 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:24 Alice (id: 0) is sending a request at lamport time: 30) 
+2023/11/12 15:46:24 Charlie (id: 2) is sending a request at lamport time: 29) 
+2023/11/12 15:46:24 Alice (id: 0) replies to  (id: 1)'s request at lamport time 28}
+2023/11/12 15:46:24 Alice (id: 0) received a request from  (id: 2) at lamport time 29}
+2023/11/12 15:46:24 Alice (id: 0) replies to  (id: 2)'s request at lamport time 29}
+2023/11/12 15:46:24 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:24 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:24 Bob (id: 1) received a request from  (id: 0) at lamport time 30}
+2023/11/12 15:46:24 Bob (id: 1) received a request from  (id: 2) at lamport time 29}
+2023/11/12 15:46:24 Charlie (id: 2) received a request from  (id: 1) at lamport time 28}
+2023/11/12 15:46:24 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 28}
+2023/11/12 15:46:24 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:24 Bob (id: 1) enters critical section at lamport time 32
+2023/11/12 15:46:27 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:27 Bob (id: 1) replies to  (id: 2)'s request at lamport time 29}
+2023/11/12 15:46:27 Bob (id: 1) replies to  (id: 0)'s request at lamport time 30}
+2023/11/12 15:46:27 Bob (id: 1) is sending a request at lamport time: 32) 
+2023/11/12 15:46:27 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:27 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:27 Alice (id: 0) received a request from  (id: 1) at lamport time 32}
+2023/11/12 15:46:27 Charlie (id: 2) enters critical section at lamport time 31
+2023/11/12 15:46:27 Charlie (id: 2) received a request from  (id: 0) at lamport time 30}
+2023/11/12 15:46:30 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:30 Charlie (id: 2) is sending a request at lamport time: 32) 
+2023/11/12 15:46:30 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 30}
+2023/11/12 15:46:30 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:30 Alice (id: 0) enters critical section at lamport time 34
+2023/11/12 15:46:30 Alice (id: 0) received a request from  (id: 2) at lamport time 32}
+2023/11/12 15:46:33 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:33 Alice (id: 0) replies to  (id: 1)'s request at lamport time 32}
+2023/11/12 15:46:33 Alice (id: 0) replies to  (id: 2)'s request at lamport time 32}
+2023/11/12 15:46:33 Alice (id: 0) is sending a request at lamport time: 34) 
+2023/11/12 15:46:33 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:33 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:33 Charlie (id: 2) received a request from  (id: 0) at lamport time 34}
+2023/11/12 15:46:33 Bob (id: 1) received a request from  (id: 2) at lamport time 32}
+2023/11/12 15:46:33 Bob (id: 1) replies to  (id: 2)'s request at lamport time 32}
+2023/11/12 15:46:33 Charlie (id: 2) received a request from  (id: 1) at lamport time 32}
+2023/11/12 15:46:33 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 32}
+2023/11/12 15:46:33 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:33 Bob (id: 1) enters critical section at lamport time 34
+2023/11/12 15:46:33 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:33 Charlie (id: 2) enters critical section at lamport time 35
+2023/11/12 15:46:36 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:36 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:36 Bob (id: 1) is sending a request at lamport time: 34) 
+2023/11/12 15:46:36 Charlie (id: 2) is sending a request at lamport time: 35) 
+2023/11/12 15:46:36 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 34}
+2023/11/12 15:46:36 Alice (id: 0) received a request from  (id: 1) at lamport time 34}
+2023/11/12 15:46:36 Alice (id: 0) replies to  (id: 1)'s request at lamport time 34}
+2023/11/12 15:46:36 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:36 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:36 Alice (id: 0) received a request from  (id: 2) at lamport time 35}
+2023/11/12 15:46:36 Bob (id: 1) received a request from  (id: 0) at lamport time 34}
+2023/11/12 15:46:36 Bob (id: 1) replies to  (id: 0)'s request at lamport time 34}
+2023/11/12 15:46:36 Charlie (id: 2) received a request from  (id: 1) at lamport time 34}
+2023/11/12 15:46:36 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 34}
+2023/11/12 15:46:36 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:36 Alice (id: 0) enters critical section at lamport time 37
+2023/11/12 15:46:36 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:36 Bob (id: 1) enters critical section at lamport time 36
+2023/11/12 15:46:39 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:39 Bob (id: 1) is sending a request at lamport time: 36) 
+2023/11/12 15:46:39 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:39 Alice (id: 0) is sending a request at lamport time: 37) 
+2023/11/12 15:46:39 Alice (id: 0) replies to  (id: 2)'s request at lamport time 35}
+2023/11/12 15:46:39 Alice (id: 0) received a request from  (id: 1) at lamport time 36}
+2023/11/12 15:46:39 Alice (id: 0) replies to  (id: 1)'s request at lamport time 36}
+2023/11/12 15:46:39 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:39 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:39 Bob (id: 1) received a request from  (id: 0) at lamport time 37}
+2023/11/12 15:46:39 Charlie (id: 2) received a request from  (id: 1) at lamport time 36}
+2023/11/12 15:46:39 Bob (id: 1) received a request from  (id: 2) at lamport time 35}
+2023/11/12 15:46:39 Bob (id: 1) replies to  (id: 2)'s request at lamport time 35}
+2023/11/12 15:46:39 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:39 Charlie (id: 2) enters critical section at lamport time 38
+2023/11/12 15:46:42 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:42 Charlie (id: 2) is sending a request at lamport time: 38) 
+2023/11/12 15:46:42 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 36}
+2023/11/12 15:46:42 Alice (id: 0) received a request from  (id: 2) at lamport time 38}
+2023/11/12 15:46:42 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:42 Bob (id: 1) enters critical section at lamport time 39
+2023/11/12 15:46:45 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:45 Bob (id: 1) replies to  (id: 0)'s request at lamport time 37}
+2023/11/12 15:46:45 Bob (id: 1) is sending a request at lamport time: 39) 
+2023/11/12 15:46:45 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:45 Alice (id: 0) received a request from  (id: 1) at lamport time 39}
+2023/11/12 15:46:45 Charlie (id: 2) received a request from  (id: 0) at lamport time 37}
+2023/11/12 15:46:45 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 37}
+2023/11/12 15:46:45 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:45 Alice (id: 0) enters critical section at lamport time 41
+2023/11/12 15:46:48 Alice (id: 0) exiting critical section.
+2023/11/12 15:46:48 Alice (id: 0) is sending a request at lamport time: 41) 
+2023/11/12 15:46:48 Alice (id: 0) replies to  (id: 1)'s request at lamport time 39}
+2023/11/12 15:46:48 Alice (id: 0) replies to  (id: 2)'s request at lamport time 38}
+2023/11/12 15:46:48 Bob (id: 1) received a request from  (id: 0) at lamport time 41}
+2023/11/12 15:46:48 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:48 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:48 Charlie (id: 2) received a request from  (id: 1) at lamport time 39}
+2023/11/12 15:46:48 Bob (id: 1) received a request from  (id: 2) at lamport time 38}
+2023/11/12 15:46:48 Bob (id: 1) replies to  (id: 2)'s request at lamport time 38}
+2023/11/12 15:46:48 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:48 Charlie (id: 2) enters critical section at lamport time 41
+2023/11/12 15:46:51 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:51 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 39}
+2023/11/12 15:46:51 Charlie (id: 2) is sending a request at lamport time: 41) 
+2023/11/12 15:46:51 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:51 Bob (id: 1) enters critical section at lamport time 42
+2023/11/12 15:46:51 Alice (id: 0) received a request from  (id: 2) at lamport time 41}
+2023/11/12 15:46:51 Alice (id: 0) replies to  (id: 2)'s request at lamport time 41}
+2023/11/12 15:46:51 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:46:51 Bob (id: 1) received a request from  (id: 2) at lamport time 41}
+2023/11/12 15:46:54 Bob (id: 1) exiting critical section.
+2023/11/12 15:46:54 Bob (id: 1) is sending a request at lamport time: 43) 
+2023/11/12 15:46:54 Bob (id: 1) replies to  (id: 2)'s request at lamport time 41}
+2023/11/12 15:46:54 Bob (id: 1) replies to  (id: 0)'s request at lamport time 41}
+2023/11/12 15:46:54 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:54 Charlie (id: 2) enters critical section at lamport time 42
+2023/11/12 15:46:54 Alice (id: 0) received a request from  (id: 1) at lamport time 43}
+2023/11/12 15:46:54 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:54 Charlie (id: 2) received a request from  (id: 0) at lamport time 41}
+2023/11/12 15:46:57 Charlie (id: 2) exiting critical section.
+2023/11/12 15:46:57 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 41}
+2023/11/12 15:46:57 Charlie (id: 2) is sending a request at lamport time: 43) 
+2023/11/12 15:46:57 Bob (id: 1) received a request from  (id: 2) at lamport time 43}
+2023/11/12 15:46:57 Bob (id: 1) replies to  (id: 2)'s request at lamport time 43}
+2023/11/12 15:46:57 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:46:57 Alice (id: 0) enters critical section at lamport time 44
+2023/11/12 15:46:57 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:46:57 Alice (id: 0) received a request from  (id: 2) at lamport time 43}
+2023/11/12 15:47:00 Alice (id: 0) exiting critical section.
+2023/11/12 15:47:00 Alice (id: 0) is sending a request at lamport time: 45) 
+2023/11/12 15:47:00 Alice (id: 0) replies to  (id: 1)'s request at lamport time 43}
+2023/11/12 15:47:00 Alice (id: 0) replies to  (id: 2)'s request at lamport time 43}
+2023/11/12 15:47:00 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:47:00 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:47:00 Charlie (id: 2) enters critical section at lamport time 44
+2023/11/12 15:47:00 Bob (id: 1) received a request from  (id: 0) at lamport time 45}
+2023/11/12 15:47:00 Charlie (id: 2) received a request from  (id: 1) at lamport time 43}
+2023/11/12 15:47:03 Charlie (id: 2) exiting critical section.
+2023/11/12 15:47:03 Charlie (id: 2) is sending a request at lamport time: 45) 
+2023/11/12 15:47:03 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 43}
+2023/11/12 15:47:03 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:47:03 Bob (id: 1) enters critical section at lamport time 46
+2023/11/12 15:47:03 Alice (id: 0) received a request from  (id: 2) at lamport time 45}
+2023/11/12 15:47:03 Alice (id: 0) replies to  (id: 2)'s request at lamport time 45}
+2023/11/12 15:47:03 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:47:03 Bob (id: 1) received a request from  (id: 2) at lamport time 45}
+2023/11/12 15:47:06 Bob (id: 1) exiting critical section.
+2023/11/12 15:47:06 Bob (id: 1) replies to  (id: 2)'s request at lamport time 45}
+2023/11/12 15:47:06 Bob (id: 1) replies to  (id: 0)'s request at lamport time 45}
+2023/11/12 15:47:06 Bob (id: 1) is sending a request at lamport time: 47) 
+2023/11/12 15:47:06 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:47:06 Charlie (id: 2) enters critical section at lamport time 46
+2023/11/12 15:47:06 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:47:06 Alice (id: 0) received a request from  (id: 1) at lamport time 47}
+2023/11/12 15:47:06 Charlie (id: 2) received a request from  (id: 0) at lamport time 45}
+2023/11/12 15:47:09 Charlie (id: 2) exiting critical section.
+2023/11/12 15:47:09 Charlie (id: 2) is sending a request at lamport time: 47) 
+2023/11/12 15:47:09 Charlie (id: 2) replies to  (id: 0)'s request at lamport time 45}
+2023/11/12 15:47:09 Alice (id: 0) received a request from  (id: 2) at lamport time 47}
+2023/11/12 15:47:09 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:47:09 Alice (id: 0) enters critical section at lamport time 49
+2023/11/12 15:47:12 Alice (id: 0) exiting critical section.
+2023/11/12 15:47:12 Alice (id: 0) replies to  (id: 2)'s request at lamport time 47}
+2023/11/12 15:47:12 Alice (id: 0) replies to  (id: 1)'s request at lamport time 47}
+2023/11/12 15:47:12 Alice (id: 0) is sending a request at lamport time: 49) 
+2023/11/12 15:47:12 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:47:12 Reply from {Name Missing} (id: 0): Critical section is free
+2023/11/12 15:47:12 Bob (id: 1) received a request from  (id: 0) at lamport time 49}
+2023/11/12 15:47:12 Charlie (id: 2) received a request from  (id: 1) at lamport time 47}
+2023/11/12 15:47:12 Charlie (id: 2) replies to  (id: 1)'s request at lamport time 47}
+2023/11/12 15:47:12 Bob (id: 1) received a request from  (id: 2) at lamport time 47}
+2023/11/12 15:47:12 Bob (id: 1) replies to  (id: 2)'s request at lamport time 47}
+2023/11/12 15:47:12 Reply from {Name Missing} (id: 2): Critical section is free
+2023/11/12 15:47:12 Reply from {Name Missing} (id: 1): Critical section is free
+2023/11/12 15:47:12 Bob (id: 1) enters critical section at lamport time 50
+2023/11/12 15:47:12 Charlie (id: 2) enters critical section at lamport time 49
+2023/11/12 15:47:15 Bob (id: 1) exiting critical section.
+2023/11/12 15:47:15 Charlie (id: 2) exiting critical section.
+2023/11/12 15:47:15 Charlie (id: 2) is sending a request at lamport time: 49) 
+2023/11/12 15:47:15 Alice (id: 0) received a request from  (id: 2) at lamport time 49}
+2023/11/12 15:47:15 Alice (id: 0) replies to  (id: 2)'s request at lamport time 49}
+2023/11/12 15:47:15 Reply from {Name Missing} (id: 0): Critical section is free

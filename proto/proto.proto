@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option go_package = "github.com/MohaAmmar/DISYSAsgn4/proto";
+
+package proto;
+
+service RAService
+{
+   rpc RA (Request) returns (Reply) {}
+}  
+
+message Request {
+    int32 id = 1;
+    string name = 2;
+    int32 lamportTimestamp = 3;
+}
+
+message Reply {
+    string msg = 1;
+}
