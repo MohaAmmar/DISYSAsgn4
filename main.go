@@ -161,6 +161,10 @@ func (p *peer) ReplyCritical(r *RA.Request) bool {
 	if p.requesting {
 		if p.myReq.LamportTimestamp < r.LamportTimestamp {
 			return false
+		} else if p.myReq.LamportTimestamp == r.LamportTimestamp {
+			if p.myReq.Id < r.Id {
+				return false
+			}
 		}
 	}
 
